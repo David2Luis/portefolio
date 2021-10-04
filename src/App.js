@@ -1,15 +1,16 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
-import Works from "./components/works/Works";
+import Project from "./components/project/Project";
 import Contact from "./components/contact/Contact";
+import "./app.scss"
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Topbar/>
-      <div>
+      <div className="sections">
         <Intro/>
-        <Work/>
+        <Project/>
         <Contact/>
       </div>
     </div>
