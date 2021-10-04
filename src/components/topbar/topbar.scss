@@ -1,0 +1,9 @@
+.topbar {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: green;
+  height: calc(100vh -70vh);
+  top: 0;
+  z-index: 2;
+}
