@@ -5,7 +5,9 @@ export default function Topbar() {
     <div className="topbar">
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="name"> David Luís</a>
+          <a href="#intro" className="name"> 
+            David Luís
+          </a>
         </div>
         <div className="right">
           <div className="hamburguer">
