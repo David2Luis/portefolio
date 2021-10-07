@@ -1,8 +1,8 @@
 import "./topbar.scss"
 
-export default function Topbar() {
+export default function Topbar({menuOpen, setMenuOpen}) {
   return (
-    <div className="topbar">
+    <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="name"> 
@@ -10,10 +10,10 @@ export default function Topbar() {
           </a>
         </div>
         <div className="right">
-          <div className="hamburguer">
-            <span className="line1"></span>
-            <span className="line2"></span>
-            <span className="line3"></span>
+          <div className="menu" onClick={()=>setMenuOpen(!menuOpen)}>
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
           </div>
         </div>
       </div>
