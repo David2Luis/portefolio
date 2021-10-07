@@ -1,8 +1,10 @@
+@import "../../global.scss";
+
 .topbar {
   height: 70px;
   width: 100%;
   position: fixed;
-  background-color: green;
+  background-color: $mainColor;
   top: 0;
   z-index: 2;
   transition: all 1s ease;
@@ -19,7 +21,8 @@
 
       .name{
         font-size: 35px;
-        font-weight: 500;
+        font-weight: 400;
+        font-style: italic;
         text-decoration: none;
         color:white;
         margin-right: 30px;
@@ -45,19 +48,26 @@
   }
 
   &.active{
-    background-color:orange;
-    color: white;
+    background-color: white;
+    color:rgba(253, 126, 19, 1);
+    transition: all 2s ease;
+    .left{
+      .name {
+        color: rgba(253, 126, 19, 1);
+        transition: all 2s ease;
+      }
+    }
     .menu {
       span{
         &:first-child{
-          background-color: white;
+          background-color: rgba(253, 126, 19, 1);
           transform: rotate(45deg);
         }
         &:nth-child(2){
           opacity: 0;
         }
         &:last-child{
-          background-color: white;
+          background-color:rgba(253, 126, 19, 1);
           transform: rotate(-45deg);
         }
       }
