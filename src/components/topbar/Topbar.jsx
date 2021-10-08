@@ -1,5 +1,6 @@
-import "./topbar.scss"
-import {EmailIcon, LocalPhoneIcon } from '@material-ui/icons';
+import "./topbar.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function Topbar({menuOpen, setMenuOpen}) {
   return (
@@ -10,8 +11,12 @@ export default function Topbar({menuOpen, setMenuOpen}) {
             David Luís
           </a>
           <div className="email">
-            <EmailIcon/>
-            <span>davidluis2020@gmial.com</span>
+            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+            <span> davidluis2020@gmail.com</span>
+          </div>
+          <div>
+            <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+            <span> 910899870</span>
           </div>
         </div>
         <div className="right">
