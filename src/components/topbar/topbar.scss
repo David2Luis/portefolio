@@ -29,7 +29,28 @@
         margin-right: 30px;
         transition: all 2s ease;
       }
+      .email{
+        font-size: 15px;
+        color:white;
+        transition: all 2s ease;
+        text-decoration: none;
+        color:white;
+        margin-right: 30px;
+        transition: all 2s ease;
+      }
+
+      .phone{
+        font-size: 15px;
+        color:white;
+        transition: all 2s ease;
+        text-decoration: none;
+        color:white;
+        margin-right: 30px;
+        transition: all 2s ease;
+      }
     }
+
+
     .right {
       .menu {
         width: 30px;
@@ -54,10 +75,21 @@
     color:rgba(253, 126, 19, 1);
     transition: all 2s ease;
     .left{
-      .name {
+      .name{
         color: rgba(253, 126, 19, 1);
         transition: all 2s ease;
       }
+
+      .email {
+        color: rgba(253, 126, 19, 1);
+        transition: all 2s ease; 
+      }
+
+      .phone {
+        color: rgba(253, 126, 19, 1);
+        transition: all 2s ease; 
+      }
+
     }
     .menu {
       span{
