@@ -14,7 +14,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
             <span> davidluis2020@gmail.com</span>
           </div>
-          <div>
+          <div className="phone">
             <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
             <span> 910899870</span>
           </div>
