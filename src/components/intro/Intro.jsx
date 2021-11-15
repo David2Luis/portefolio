@@ -19,7 +19,7 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
-      <div className="wrapper">
+        <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>David Luís</h1>
           <h3>
