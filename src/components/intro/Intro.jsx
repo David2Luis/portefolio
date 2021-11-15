@@ -12,7 +12,7 @@ export default function Intro() {
           <h3>Web Developer</h3>
         </div>
         <a href="#curriculum">
-          <FontAwesomeIcon icon={faBookOpen} size="6x"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faBookOpen} size="3x"></FontAwesomeIcon>
         </a>
       </div>
       <div className="right">
